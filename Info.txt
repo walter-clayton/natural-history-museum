@@ -1,25 +1,3 @@
-# natural-history-museum
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-# INSTRUCTIONS FOR THE TASK
-
 This task is spread between two vue components.
 
 GENERAL GUIDELINES
@@ -69,3 +47,4 @@ REQUIREMENTS
 
 
 Follow the requirements and also complete any prompts in the two component files. You can return these two files with the content filled in, or copy and paste the relevant code and create something on Github, or in JSFiddle.
+

@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+      <router-link to="/museum"><i class="fas fa-globe-americas d-flex"> Natural History Museum</i></router-link> 
+      <router-link to="/space"><i class="fas fa-space-shuttle d-flex"></i></router-link>
   </div>
   <router-view/>
 </template>
@@ -14,17 +14,22 @@
   text-align: center;
   color: #2c3e50;
 }
-
 #nav {
+  display: flex;
+  justify-content: space-between;
   padding: 30px;
+  background-color: #e0e0e0;
 }
-
-#nav a {
+.grid{
+  display: grid;
+}
+#nav a,i{
   font-weight: bold;
   color: #2c3e50;
+  text-decoration: none;
+  font-size: 1.5em;
 }
-
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: blue;
 }
 </style>
